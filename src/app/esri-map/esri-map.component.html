@@ -1,1 +1,7 @@
 <div #mapViewNode></div>
+<input id="trails" type="checkbox" (change)="onTrailsChange($event.target.checked)"/>
+<label for="trails">Trails</label>
+<input id="trees" type="checkbox" (change)="onTreeChange($event.target.checked)"/>
+<label for="trees">Trees</label>
+<input id="vectors" type="checkbox" (change)="onVectorsChange($event.target.checked)"/>
+<label for="vectors">Vectors</label>
